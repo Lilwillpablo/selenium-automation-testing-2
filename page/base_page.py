@@ -45,4 +45,4 @@ class BasePage():
     def move_to_workshop_page(self):
         self.browser.find_element(By.CSS_SELECTOR, ".NavigationSlice_secondaryWrapper__paGIp .Menu_list-item__1F0Km:nth-of-type(1) .MenuItem_menu-item__link__2qTtx").click()
         self.browser.find_element(By.CSS_SELECTOR, "[data-e2e-name='unlimited_workshops'] > span:nth-of-type(1)").click()
-        time.sleep(10)
+
